@@ -1,24 +1,27 @@
 body {
-    background-color: aliceblue;
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px
 }
 
 h1 {
-    background-color: white;
+    background-color: #D2042D;
     margin: 0px 0px 20px 0px;
     padding: 10px;
+    color: white
 }
 
 .cards {
     text-align: center;
 }
+
 .recipe-card {
     display: inline-block;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-decoration: none;
+    color: white;
     margin: 10px;
 }
 .recipe-card img {
@@ -27,9 +30,41 @@ h1 {
     aspect-ratio: 4 / 3;
     display: block;
 }
+
 .container {
     text-align: center;
     padding: 1px;
     border-radius: 0px 0px 10px 10px;
-    background-color: white;
+    background-color: #D2042D;
+}
+
+.recipe-container {
+    border-style: solid;
+    width: 800px;
+    margin: auto;
+}
+
+.recipe-container img {
+    width: 100%;
+}
+
+.recipe-title {
+    background-color: #D2042D;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; 
+    color: white;
+}
+
+.recipe-text {
+    padding: 0px 20px;
+}
+
+.recipe-text h3 {
+    background-color: #D2042D;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
 }
